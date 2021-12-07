@@ -1,0 +1,39 @@
+{
+  "name": "svelte-component-template",
+  "version": "1.0.0",
+  "description": "svelte component template",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "repository": "git@github.com:niqingyang/svelte-component-template.git",
+  "author": "niqingyang <niqy@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.4.8",
+    "@storybook/addon-essentials": "^6.4.8",
+    "@storybook/addon-links": "^6.4.8",
+    "@storybook/addon-svelte-csf": "^1.1.0",
+    "@storybook/builder-webpack5": "^6.4.8",
+    "@storybook/manager-webpack5": "^6.4.8",
+    "@storybook/svelte": "^6.4.8",
+    "babel-loader": "^8.2.3",
+    "rollup": "^2.60.2",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.44.2",
+    "svelte-loader": "^3.1.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.2"
+  }
+}

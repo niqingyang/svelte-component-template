@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{css, scss}]
+indent_size = 2
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json, tsconfig.json, .travis.yml}]
+indent_size = 2

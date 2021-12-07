@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "outDir": "lib",
+    "rootDir": ".",
+    "lib": [
+      "es2018",
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.svelte",
+    "stories/**/*.ts",
+    "stories/**/*.mdx",
+    "stories/**/*.d.ts",
+    "stories/**/*.svelte"
+  ],
+  "exclude": [
+    "node_module",
+    "dist",
+    "global.d.ts"
+  ]
+}
